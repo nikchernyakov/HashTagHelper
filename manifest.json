@@ -1,0 +1,22 @@
+{
+  "name": "Помощник Сумеречного Кота",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "128.png"
+  },
+
+  "background": {
+    "sсripts": [
+      "main.js",
+      "sсript.js"
+    ]
+  },
+
+  "browser_action": {
+    "default_icon": "128.png",
+    "default_title": "Помощник Сумеречного Кота",
+    "default_popup": "popup.html"
+  }
+
+}
